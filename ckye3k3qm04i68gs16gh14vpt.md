@@ -1,13 +1,13 @@
 ## Setup a private NuGet repository
 
-Setup a private NuGet repository have multi way. In this post we see BaGet and how can start it.
+Setup a private NuGet repository have multi-way. In this post we see BaGet and how can start it.
 ## What is BaGet?
 According to https://loic-sharma.github.io/BaGet/
 
 `BaGet (pronounced "baguette") is a lightweight NuGet and symbol server. It is open source, cross-platform, and cloud ready! `
 ## Setup BaGet 
-### Step one : Getting VPS and Installing Docker
-We need a VPS for install and use BaGet. After getting VPS it's time to installing docker. I recommend you for installing to check [docker documentation](https://docs.docker.com/engine/install/). Now we can start Installing BaGet
+### Step one: Getting VPS and Installing Docker
+We need a VPS for installing and using BaGet. After getting VPS it's time to install docker. I recommend you for installing to check [docker documentation](https://docs.docker.com/engine/install/). Now we can start Installing BaGet
 
  ### Step two: Installing BaGet on docker
 
@@ -26,17 +26,17 @@ Now it's time to download BaGet form  [docker hub](https://hub.docker.com/r/loic
 ```
 docker pull loicsharma/baget
 ```
-with this command get latest version of BaGet.
+with this command get the latest version of BaGet.
 
-For start BaGet docker container :
+To start BaGet docker container :
 ```
 docker run --rm --name nuget-server -p 8080:80 --env-file baget.env -v "$(pwd)/baget-data:/var/baget" loicsharma/baget
 ```
 now NuGet server run and we can open it 'IP or domain pointed to vps:8080` to see BaGet home page.
 ### Config nginx (Optional) 
-You can make a domain for it to every time enter the domain.
+You can make a domain for it every time enter the domain.
 
-Install nginx this [link](https://nginx.org/en/docs/install.html) help you.
+Install Nginx this [link](https://nginx.org/en/docs/install.html) to help you.
 
 After installing add file `nuget.behroozbc.com` to `/etc/nginx/conf.d/` like 
 ```
