@@ -77,5 +77,17 @@ while (true)
     await Task.Delay(TimeSpan.FromSeconds(1));
 }
 ```
-You have an MQTT client. In the next post, I will show you how to create a broker to test it.
-You find this project on  [Github](https://github.com/behroozbc/SimpleMQTTClient) 
+By default MQTT without encryption port is 1883 if you want to change it add a parameter port number to `WithTcpServer` like 
+```
+// Create client options object
+MqttClientOptionsBuilder builder = new MqttClientOptionsBuilder()
+                                        .WithClientId("behroozbc")
+                                        .WithTcpServer("localhost",5004);
+```
+### Conclusion
+You have an MQTT client. I hope it was useful.
+In the next post, I will show you how to create a broker to test it.
+
+You find this project on  [Github](https://github.com/behroozbc/SimpleMQTTClient).
+
+If you are still unsure of what to do or if you got any errors,  I suggest you use the comment section below and let me know! I’m here to help.
