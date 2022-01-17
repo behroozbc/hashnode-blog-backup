@@ -1,4 +1,4 @@
-## Start MQTT Client in C#
+## Start MQTT Client with C#
 
 we're going to have a look at What is MQTT and how can create a simple MQTT client.
 
