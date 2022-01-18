@@ -112,4 +112,5 @@ After this open `MainPage.xaml.cs` add follows
 
 ![Screenshot_20220117-222211.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1642445635769/HMidy9NCb.jpeg)
 ** The end **
+
 In this post, We see how can use Toast message in .Net MAUI applications. I hope it was useful. you can see the full code on  [Github](https://github.com/behroozbc/ToastMessageSimple) 
