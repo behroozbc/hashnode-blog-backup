@@ -33,7 +33,7 @@ For working in dotnet with MQTT we need to install the  [MQTTnet.Extensions.Mana
 ```
 dotnet add package MQTTnet.Extensions.ManagedClient --version 3.1.1
 ```
-At this time last stable version of `MQTTnet` is `3.1.1`
+At this time last stable version of `MQTTnet` is `3.1.1`.
 
 ### Implemention 
 Now it's time to have some fun in code. Open `Program.cs` 
