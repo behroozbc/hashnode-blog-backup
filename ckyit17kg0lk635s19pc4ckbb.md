@@ -29,7 +29,7 @@ dotnet new console --name SimpleMQTTClient
 ```
 Now We have a new empty project 😁.
 ### Install dependency 
-For working in dotnet with MQTT we need to install the  [MQTTNet ](https://www.nuget.org/packages/MQTTnet.Extensions.ManagedClient) package from NuGet. 
+For working in dotnet with MQTT we need to install the  [MQTTnet.Extensions.ManagedClient](https://www.nuget.org/packages/MQTTnet.Extensions.ManagedClient) package from NuGet. 
 ```
 dotnet add package MQTTnet.Extensions.ManagedClient --version 3.1.1
 ```
