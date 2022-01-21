@@ -86,7 +86,7 @@ MqttClientOptionsBuilder builder = new MqttClientOptionsBuilder()
 ```
 ### Conclusion
 You have an MQTT client. I hope it was useful.
-In the next post, I will show you how to create a broker to test it.
+In this [post](https://blog.behroozbc.ir/basic-mqtt-broker-with-c-sharp), I will show you how to create a broker to test it.
 
 You find this project on  [Github](https://github.com/behroozbc/SimpleMQTTClient).
 
