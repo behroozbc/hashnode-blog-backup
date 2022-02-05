@@ -19,7 +19,7 @@ v3.15.0-258-gd5d32e35cf [https://dl-cdn.alpinelinux.org/alpine/v3.15/main]
 v3.15.0-256-g047dab5823 [https://dl-cdn.alpinelinux.org/alpine/v3.15/community]
 OK: 15857 distinct packages available
 ```
-now we can install nano by this command
+now you can install nano by this command
 ```
 apk add nano
 ```
