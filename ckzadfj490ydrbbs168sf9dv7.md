@@ -32,6 +32,6 @@ wait to install nano
 Executing busybox-1.34.1-r3.trigger
 OK: 7 MiB in 17 packages
 ```
-We have a nano text editor on Alpine Linux 😁😁
+You have a nano text editor on Alpine Linux 😁😁
 
 if you got any errors, then I suggest you use the comment section below and let me know!
