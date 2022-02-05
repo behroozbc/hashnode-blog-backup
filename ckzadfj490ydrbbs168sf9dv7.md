@@ -4,9 +4,9 @@ When you are a beginner on Alpine Linux, you want to use [nano](https://www.nano
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644092850184/GartPkPbC.png)
 😕🤷‍♂️
 ## why does this happen??
-Alpine Linux is a Linux distribution based on musl and BusyBox, designed for security, simplicity, and resource efficiency and has a small size for the fast boot-up time. by default haven't a nano text editor that we must install.
+Alpine Linux is a Linux distribution based on musl and BusyBox, designed for security, simplicity, and resource efficiency and has a small size for the fast boot-up time. by default haven't a nano text editor that you must install.
 # Install Nano on Alpine Linux
-First, we need to update remote repositories changes as packages are added and upgraded.
+First, you need to get updated remote repositories changes as packages are added and upgraded.
 ```
 apk update
 ```
