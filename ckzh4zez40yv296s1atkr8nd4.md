@@ -30,7 +30,7 @@ To download and install .NET to run the `dotnet-install` script
 ```
 sudo bash ./dotnet-install.sh --channel LTS --install-dir /opt/dotnet/ 
 ```
-The command installs the latest LTS version of the dotnet and saves it to this `/opt/dotnet/` address to see more options check [Microsoft documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-install-script#options).after the script is done you must add a path to the `.bashrc` file to load .NET globally.
+The command installs the latest LTS version of the dotnet and saves it to this `/opt/dotnet/` address. To see more options check [Microsoft documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-install-script#options). after the script is done you must add a path to the `.bashrc` file to load .NET globally.
 ```
 ln -s /opt/dotnet/dotnet /usr/local/bin
 
