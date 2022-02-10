@@ -1,4 +1,4 @@
-## Install .NET 6 on a Raspberry Pi
+## Install .NET on a Raspberry Pi
 
 .NET is a cross-platform, free, open-source platform successor to the .NET framework.
 Installing .NET is straightforward for most OS like Windows and Ubuntu (Desktop and Server) with clean instruction available on the download website. However, installing it on something like a Raspberry Pi that uses an ARM-based processor becomes trickier. 
