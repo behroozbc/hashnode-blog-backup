@@ -3,7 +3,7 @@
 .NET is a cross-platform, free, open-source platform successor to the .NET framework.
 Installing .NET is straightforward for most OS like Windows and Ubuntu (Desktop and Server) with clean instruction available on the download website. However, installing it on something like a Raspberry Pi that uses an ARM-based processor becomes trickier. 
 
-Now I want to install .NET 6 on a Raspberry Pi OS 64-bit or 32-bit. Let's start.
+Let's start by installing .NET 6 on a Raspberry Pi OS 64-bit or 32-bit.
 
 ## 1) Access to the terminal of Raspberry Pi OS
 You can access the terminal of the Raspberry PI by SSH or direct connection. 
