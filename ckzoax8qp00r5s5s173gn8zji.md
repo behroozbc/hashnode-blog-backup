@@ -10,7 +10,6 @@ Let's begin with a definition of Docker.
 
 Docker containers can run anywhere, on-premises in the customer data center, in an external service provider, or in the cloud. Docker image containers can run natively on Linux and Windows. However, Windows images can run only on Windows hosts and Linux images can run on Linux hosts and Windows hosts.
 
-Now it's time to follow the below steps to install Docker
 ## Why Should you install Docker on a Raspberry Pi?
 It's a pretty common question. 
 ### Consistent & Isolated Environment
@@ -21,6 +20,8 @@ Additionally, Docker's portability is a tremendous benefit. Applications built w
 In addition, Docker improves resource utilization, so low-end clients like Raspberry Pis can do more.
 ### Security
 As a final advantage, we have the security aspect! In a nutshell, a containerized application is more secure than one that runs on bare metal. Because Docker takes care of complete isolation and segregation of the applications running within the containers, it gives developers complete control over traffic. Data from one container cannot be accessed by another without authorization. Besides that, each container is assigned its own set of resources. It is essential to remember that you cannot rely on Docker containers alone to take appropriate security measures. In order to ensure overall security, you will also need to consider other security areas. 
+
+Now it's time to follow the below steps to install Docker
 ## Installing Docker
 ### Get `get-docker` script 
 `get-docker` script is a script that docker wrote to install docker on any system that could install become simplified 
