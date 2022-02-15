@@ -39,5 +39,5 @@ run the `docker -v` command. you must a result like this
 ```
 Docker version 20.10.12, build e91ed57
 ```
-### Summery
+## Summary
 You can use the comment section below to let me know if you have any questions or issues! I'm here to help.
