@@ -1,4 +1,4 @@
-## Install Docker a Raspberry Pi
+## Install Docker on a Raspberry Pi
 
 Are you know it's possible to run Docker on a Raspberry Pi?? My first reaction was surprise since I thought Docker was only for servers. But that notion was incorrect.
 
