@@ -12,7 +12,7 @@ Instead of using the built-in translation features of Angular, you can use ngx-t
 The `ngx-translate` produce a single app at the end so it fixes the angular built-in problem as I mentioned before.
 
 ## a simple example
-To demonstrate the solution I proposed, I prepared an example you can see the code on [Github](https://github.com/behroozbc/pwa-translate-dome) or a demo in [this link](https://behroozbc.github.io/pwa-translate-dome/). If you want more detail about `ngx-translate` see the `ngx-translate` [documentation](https://github.com/ngx-translate/core).
+To demonstrate the solution I proposed, I prepared an example you can see the code on [Github](https://github.com/behroozbc/pwa-translate-dome) or test the demo on [this link](https://behroozbc.github.io/pwa-translate-dome/). If you want more detail about `ngx-translate` see the `ngx-translate` [documentation](https://github.com/ngx-translate/core).
 
 ### The end
 
