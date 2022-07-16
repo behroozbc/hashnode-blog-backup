@@ -93,3 +93,5 @@ In this post, We see how can develop an MQTT broker. I hope it was useful. you c
 See other posts on the blog about MQTT and IoT.
 
 If you’re still not sure or have questions about it what to do, or if you got any errors, then I suggest you use the comment section below and let me know! I am here to help!
+** Update**
+The MQTTnet version 4 was released, and you can find this version sample and introduction on [this link](https://blog.behroozbc.ir/c-mqtt-broker-using-mqttnet-version-4)
