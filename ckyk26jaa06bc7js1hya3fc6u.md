@@ -2,12 +2,63 @@
 
 While developing a mobile application, do you sometimes need to send feedback to the user after his actions? Even without disturbing the functioning of the application. It is possible to do this with Toast messages. However, you do not directly use Toast messages in .NET MAUI.
 
-Now, I will show you how to show Toast messages like native android app in .NET MAUI applications.
+Now, I will show you how to show Toast messages like the native android apps in .NET MAUI applications.
 
 So let's start with the definition of Toast messages. and follow the steps below
-## What is Toast Messages?
-Toast message provides the user with feedback on the process is applied. The displayed message remains on the screen for a short time and disappears by itself. By default, it appears horizontally centered at the bottom of the screen. There are two types defined as long and short time duration.
+## What are Toast Messages?
+Toast message provides the user with feedback on the process applied. The displayed message remains on the screen for a short time and disappears by itself. By default, it appears horizontally centered at the bottom of the screen. There are two types defined as long and short time duration.
+## .NET MAUI Community Toolkit
 
+### What is .NET MAUI Community Toolkit.
+The .NET MAUI Community Toolkit is a collection of reusable elements for application development with .NET MAUI, including animations, behaviors, converters, effects, and helpers. It simplifies and demonstrates everyday developer tasks when building iOS, Android, macOS, and WinUI applications using .NET MAUI.
+
+The MAUI Community Toolkit is available as a set of NuGet Packages for new or existing .NET MAUI projects.
+
+### Setup
+.NET MAUI Community Toolkit needs to install and register on your MAUI app to install the .NET MAUI Community Toolkit NuGet package 
+```
+dotnet add package CommunityToolkit.Maui --version 1.1.0
+```
+after installation is complete you should register the package that the `UseMauiCommunityToolkit()` method adds to MauiPrograms.cs like 
+```
+using CommunityToolkit.Maui;
+namespace MauiApp6;
+
+public static class MauiProgram
+{
+	public static MauiApp CreateMauiApp()
+	{
+		var builder = MauiApp.CreateBuilder();
+		builder
+			.UseMauiApp<App>()
+			.UseMauiCommunityToolkit() //this line you should add
+			.ConfigureFonts(fonts =>
+			{
+				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+			});
+
+		return builder.Build();
+	}
+}
+```
+### See Result 🤩🤩
+To display `Toast`, first, use the static method `Toast.Make()` to create the message, then display it with the `Show() ` method.
+```
+using CommunityToolkit.Maui.Alerts;
+
+CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+
+string text = "This is a Toast";
+ToastDuration duration = ToastDuration.Short;
+
+var toast = Toast.Make(text, duration);
+
+await toast.Show(cancellationTokenSource.Token);
+```
+ to see the complete details of this method visit the technical documentation on [this link](https://docs.microsoft.com/en-us/dotnet/communitytoolkit/maui/alerts/toast).
+
+## Without library or packages 
 It is possible to use toast messages directly in native applications. But, we have no such option on cross platforms. likely, it is possible to access local features by defining Dependency Services in .NET MAUI.
  
 
@@ -22,7 +73,7 @@ public interface IToastMessage
         void LongToast(string message);
 }
 ```
-Here we had defined two methods take a string message as a parameter. We going to override these methods in the Dependency class on the native side.
+Here we had defined two methods that take a string message as a parameter. We going to override these methods in the Dependency class on the native side.
 ### 2. Create a Dependency Service
  Create a class called `ToastMessage` on **Platform-specific > Android**.that inherits the `IToastMessage` and implement the interface members. Then implement methods of interface as follow.
 ```
@@ -68,7 +119,7 @@ In constructor method between `InitializeComponent()` and  `MainPage = new MainP
 
 ### 4. See result 🤩
 
-Open `MainPage.xaml` and remove preset content, add code follows 
+Open `MainPage.xaml` and remove preset content, add code as follows 
 ```
     <ScrollView>
         <Grid RowSpacing="25" RowDefinitions="Auto,Auto,*"
