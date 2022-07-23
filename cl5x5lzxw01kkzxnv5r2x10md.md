@@ -1,4 +1,4 @@
-## MQTT Client with MQTTnet and C#
+## MQTT Client with MQTTnet 4 and C#
 
 In the [previous post](https://blog.behroozbc.ir/start-mqtt-client-with-csharp), we worked with MQTTnet version 3, although version 4 of MQTTnet came in Jun 2022. As MQTTnet version 4 has a lot of changes, I thought it would be helpful to write a new article about developing a simple MQTT broker using this version. To find more information on MQTT and what is MQTT client and broker please check [this post](https://blog.behroozbc.ir/start-mqtt-client-with-csharp).
 
