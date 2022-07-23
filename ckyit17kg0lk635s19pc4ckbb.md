@@ -93,4 +93,4 @@ You find this project on  [Github](https://github.com/behroozbc/SimpleMQTTClient
 If you are still unsure of what to do or if you got any errors,  I suggest you use the comment section below and let me know! I’m here to help.
 
 ## Update
-A new version of the MQTT library for DotNet was released recently, which introduced many breaking changes, so I plan to post an article as soon as possible to show you how to use version 4. 
+A new version of the MQTT library for DotNet was released recently, which introduced many breaking changes, so that you can read the article about it on [this page](https://blog.behroozbc.ir/mqtt-client-with-mqttnet-and-c). 
