@@ -1,4 +1,4 @@
-# Introduce windows winget
+# Introduce Windows Winget
 
 As a Windows user, I envy Linux users because they have a package manager like APT to install their software from the command line without touching UI. On May 13, 2020, Microsoft introduced the 'Winget' that ends an ear. In this post, I will look at some features and powers of 'Winget'.
 
