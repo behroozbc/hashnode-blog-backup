@@ -1,22 +1,30 @@
-## MQTT Client with MQTTnet 4 and C#
+# MQTT Client with MQTTnet 4 and C#
 
-In the [previous post](https://blog.behroozbc.ir/start-mqtt-client-with-csharp), we worked with MQTTnet version 3, although version 4 of MQTTnet came in Jun 2022. As MQTTnet version 4 has a lot of changes, I thought it would be helpful to write a new article about developing a simple MQTT broker using this version. To find more information on MQTT and what is MQTT client and broker please check [this post](https://blog.behroozbc.ir/start-mqtt-client-with-csharp).
+In the [previous post](https://blog.behroozbc.ir/start-mqtt-client-with-csharp), we worked with MQTTnet version 3, although version 4 of MQTTnet came in Jun 2022. As MQTTnet version 4 has a lot of changes, I thought it would be helpful to write a new article about developing a simple MQTT client using this version. To find more information on MQTT and what is MQTT client and broker please check [this post](https://blog.behroozbc.ir/start-mqtt-client-with-csharp).
 
 ## Create a project
+
 We need to create a console project. I use dotnet CLI to create a new project.
-```
+
+```bash
 dotnet new console --name SimpleMQTTClient4
 ```
+
 Now We have a new empty project to code an MQTT client.
+
 ## Install Dependency
+
 To work in dotnet with MQTT Client, we need to install the MQTTnet.Extensions.ManagedClient package from NuGet. This article uses version 4.
-```
+
+```bash
 dotnet add package MQTTnet.Extensions.ManagedClient --version 4.0.2.221
 ```
 
 ## Implementation
+
 Open Program.cs.Add the below code.
-```
+
+```bash
 using MQTTnet.Client;
 using MQTTnet.Extensions.ManagedClient;
 using MQTTnet;
@@ -72,8 +80,10 @@ Task _mqttClient_ConnectingFailedAsync(ConnectingFailedEventArgs arg)
     return Task.CompletedTask;
 }
 ```
+
 By default MQTT without encryption port is 1883. If you want to change it, add a parameter port number to WithTcpServer.
-```
+
+```bash
 // Create the options for MQTT Broker
 var options = new MqttServerOptionsBuilder()
     //Set endpoint to localhost
@@ -81,7 +91,9 @@ var options = new MqttServerOptionsBuilder()
     // Port is going to use 5004
     .WithDefaultEndpointPort(5004);
 ```
+
 ## Conclusion
+
 You have an MQTT client. I hope it was helpful. In this post, I will show you how to create a broker to test it.
 
 You find this project on [Github](https://github.com/behroozbc/SimpleMQTTClient4).
