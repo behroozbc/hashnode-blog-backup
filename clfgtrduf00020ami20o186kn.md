@@ -4,7 +4,7 @@ datePublished: Mon Mar 20 2023 12:50:26 GMT+0000 (Coordinated Universal Time)
 cuid: clfgtrduf00020ami20o186kn
 slug: discover-mqtt-a-key-protocol-for-iot
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/knxuAKpRoxs/upload/0edf6290263b29c159ef0ba39fee4df4.jpeg
-tags: iot, mqtt, protocols
+tags: iot, mqtt, internet-of-things, protocols
 
 ---
 
