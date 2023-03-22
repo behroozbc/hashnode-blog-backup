@@ -1,5 +1,5 @@
 ---
-title: ""Create Stunning Charts in Angular Apps with Echart 5""
+title: "Create Stunning Charts in Angular Apps with Echart 5"
 datePublished: Wed Mar 22 2023 12:52:38 GMT+0000 (Coordinated Universal Time)
 cuid: clfjopxfz004f2cnvheyaevij
 slug: create-stunning-charts-in-angular-apps-with-echart-5
