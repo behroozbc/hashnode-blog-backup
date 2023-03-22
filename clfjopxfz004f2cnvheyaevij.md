@@ -104,3 +104,5 @@ If you do not understand some properties of the `echartsOptions` object check th
 ## Conclusion
 
 To make a long story short, in this post I showed how to draw charts with Echart in angular applications helping you and this is my goal. You can find the full project on [GitHub](https://github.com/behroozbc/sample-of-echart). If you may have any questions or problems I propose you create a comment about it. I am here to help.
+
+[Echart](https://echarts.apache.org/en/index.html), [echart-for-angular](https://github.com/alixdehghani/echarts-for-angular)([npm](https://www.npmjs.com/package/echarts-for-angular))
