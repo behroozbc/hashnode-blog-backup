@@ -1,6 +1,5 @@
 ---
 title: "How to Configure User Authentication for MQTTnet version 4 Broker?"
-seoTitle: "MQTTnet v4 Broker Auth Config"
 seoDescription: "Learn how to enhance the security of MQTT communication by implementing user validation for MQTTnet version 4 broker with this step-by-step guide"
 datePublished: Thu Mar 23 2023 05:30:39 GMT+0000 (Coordinated Universal Time)
 cuid: clfkoddw901i9nwnv5odi1s33
