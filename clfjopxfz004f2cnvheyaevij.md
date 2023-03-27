@@ -4,7 +4,7 @@ datePublished: Wed Mar 22 2023 12:52:38 GMT+0000 (Coordinated Universal Time)
 cuid: clfjopxfz004f2cnvheyaevij
 slug: create-stunning-charts-in-angular-apps-with-echarts-5
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/RDXcFY5g5O4/upload/cb5a8638dbd7040b1735394587e12f78.jpeg
-tags: charts, web-development, angular, echart
+tags: charts, web-development, angular, angular-charts, echart
 
 ---
 
