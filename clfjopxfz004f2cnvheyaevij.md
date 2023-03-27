@@ -41,7 +41,7 @@ Now, it is time to sketch a chart and use the power of Echarts. To begin with, A
 
 Now, `echarts-for-angular` added to your module and you can use its services and directives!
 
-Let's go inside a component. Echarts-for-angular has a directive which need to add on a div element with the name of `echarts`. Also, the Echart needs to define an array of your needed components of the Echart components and pass it to the Echart directive which is `extentions` property of the echarts attribute. In the end, you should define a variable from your chart parameters and configurations. For this instance, I draw a pie chart but you can see other chart examples on [the echarts site.](https://echarts.apache.org/examples/en/index.html) I absolutely suggest you check it because it could draw very more complex charts.
+Let's go inside a component. Echarts-for-angular has a directive which need to add on a div element with the name of `echarts`. Also, the Echart needs to define an array of your needed components of the Echarts components and pass it to the Echarts directive which is `extentions` property of the echarts attribute. In the end, you should define a variable from your chart parameters and configurations. For this instance, I draw a pie chart but you can see other chart examples on [the echarts site.](https://echarts.apache.org/examples/en/index.html) I absolutely suggest you check it because it could draw very more complex charts.
 
 ```xml
 <div echarts [options]="echartsOptions" [extentions]="echartsExtentions">
