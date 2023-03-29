@@ -1,9 +1,9 @@
 ---
-title: "How to Configure User Authentication for MQTTnet version 4 Broker?"
+title: "How Configure User Authentication for MQTTnet version 4 Broker?"
 seoDescription: "Learn how to enhance the security of MQTT communication by implementing user validation for MQTTnet version 4 broker with this step-by-step guide"
 datePublished: Thu Mar 23 2023 05:30:39 GMT+0000 (Coordinated Universal Time)
 cuid: clfkoddw901i9nwnv5odi1s33
-slug: how-to-configure-user-authentication-for-mqttnet-version-4-broker
+slug: how-configure-user-authentication-for-mqttnet-version-4-broker
 cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/4dKy7d3lkKM/upload/v1643227688046/5NTCTkTm7.jpeg
 tags: csharp, iot, net, mqtt, internet-of-things
 
