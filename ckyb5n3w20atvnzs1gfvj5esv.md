@@ -1,4 +1,12 @@
-## $SYS topic in MQTT
+---
+title: "$SYS topic in MQTT"
+datePublished: Wed Jan 12 2022 06:21:25 GMT+0000 (Coordinated Universal Time)
+cuid: ckyb5n3w20atvnzs1gfvj5esv
+slug: dollarsys-topic-in-mqtt
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/FO7JIlwjOtU/upload/v1641885037909/TLF5n2XH3.jpeg
+tags: iot, internet-of-things
+
+---
 
 This is a reserved topic and is implemented by most MQTT and used to publish information about the broker.
 They are read-only topics for the MQTT clients. There is no standard for topic structure but have [guides](https://github.com/mqtt/mqtt.org/wiki/SYS-Topics) 
