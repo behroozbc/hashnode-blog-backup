@@ -1,4 +1,12 @@
-## Install .NET on a Raspberry Pi
+---
+title: "Install .NET on a Raspberry Pi"
+datePublished: Thu Feb 10 2022 15:29:19 GMT+0000 (Coordinated Universal Time)
+cuid: ckzh4zez40yv296s1atkr8nd4
+slug: install-net-on-a-raspberry-pi
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/rZKdS0wI8Ks/upload/v1643045341828/pxYUYmCGj.jpeg
+tags: csharp, iot, net, raspberry-pi
+
+---
 
 .NET is a cross-platform, free, open-source platform successor to the .NET framework.
 Installing .NET is straightforward for most OS like Windows and Ubuntu (Desktop and Server) with clean instruction available on the download website. However, installing it on something like a Raspberry Pi that uses an ARM-based processor becomes trickier. 
