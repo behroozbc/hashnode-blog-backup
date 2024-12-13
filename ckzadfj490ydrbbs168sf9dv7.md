@@ -1,4 +1,12 @@
-## Install nano on Alpine Linux
+---
+title: "Install nano on Alpine Linux"
+datePublished: Sat Feb 05 2022 21:51:24 GMT+0000 (Coordinated Universal Time)
+cuid: ckzadfj490ydrbbs168sf9dv7
+slug: install-nano-on-alpine-linux
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/4Mw7nkQDByk/upload/v1644086733999/VY_Ddu3_N.jpeg
+tags: linux, linux-for-beginners, linux-basics
+
+---
 
 When you are a beginner on Alpine Linux, you want to use [nano](https://www.nano-editor.org/) a text editor for editing a file and get this error 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644092850184/GartPkPbC.png)
