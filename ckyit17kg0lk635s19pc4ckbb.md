@@ -1,4 +1,12 @@
-## Start MQTT Client with C#
+---
+title: "Start MQTT Client with C#"
+datePublished: Mon Jan 17 2022 14:50:37 GMT+0000 (Coordinated Universal Time)
+cuid: ckyit17kg0lk635s19pc4ckbb
+slug: start-mqtt-client-with-csharp
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/eOpewngf68w/upload/v1641935528692/i5if9rGyw.jpeg
+tags: csharp, iot, mqtt, dotnet, internet-of-things
+
+---
 
 we're going to have a look at What is MQTT and how can create a simple MQTT client.
 
