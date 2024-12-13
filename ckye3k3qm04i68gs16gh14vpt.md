@@ -1,4 +1,12 @@
-## Setup a private NuGet repository
+---
+title: "Setup a private NuGet repository"
+datePublished: Fri Jan 14 2022 07:46:24 GMT+0000 (Coordinated Universal Time)
+cuid: ckye3k3qm04i68gs16gh14vpt
+slug: setup-a-private-nuget-repository
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/dMGV2jJShdo/upload/v1642059550772/RA2wuQ3Wy.jpeg
+tags: csharp, package, aspnet, aspnet-core
+
+---
 
 Setup a private NuGet repository have multi-way. In this post we see BaGet and how can start it.
 ## What is BaGet?
