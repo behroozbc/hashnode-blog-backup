@@ -1,4 +1,12 @@
-## C# MQTT broker using MQTTnet version 4
+---
+title: "C# MQTT broker using MQTTnet version 4"
+datePublished: Sat Jul 16 2022 17:50:51 GMT+0000 (Coordinated Universal Time)
+cuid: cl5o6qb7101sjhsnv8sqogaxu
+slug: c-mqtt-broker-using-mqttnet-version-4
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/4OhFZSAT3sw/upload/v1657990209534/On50-j1Et.jpeg
+tags: csharp, iot, net, internet-of-things
+
+---
 
 In [previous posts](https://blog.behroozbc.ir/basic-mqtt-broker-with-c-sharp), we worked with MQTTnet version 3, although version 4 of MQTTnet came in Jun 2022. As MQTTnet version 4 has a lot of changes, I thought it would be helpful to write a new article about developing a simple MQTT broker using this version.
 ## What is the MQTT broker?
