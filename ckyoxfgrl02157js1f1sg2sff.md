@@ -1,4 +1,12 @@
-## Basic MQTT broker with C#
+---
+title: "Basic MQTT broker with C#"
+datePublished: Fri Jan 21 2022 21:40:18 GMT+0000 (Coordinated Universal Time)
+cuid: ckyoxfgrl02157js1f1sg2sff
+slug: basic-mqtt-broker-with-c-sharp
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/btcqWS6inSY/upload/v1642506501194/L_XgpPUxb.jpeg
+tags: csharp, iot, dotnet, internet-of-things
+
+---
 
 In the previous [post](https://blog.behroozbc.ir/start-mqtt-client-with-csharp), we learn what is MQTT and programmed a simple MQTT client.
 
