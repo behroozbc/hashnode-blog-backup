@@ -1,4 +1,12 @@
-## Angular PWA Internationalization
+---
+title: "Angular PWA Internationalization"
+datePublished: Mon Jul 04 2022 17:52:32 GMT+0000 (Coordinated Universal Time)
+cuid: cl571i9dw0f79ownvdf2uhe1h
+slug: angular-pwa-internationalization
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/IYm2PCy0f8c/upload/v1656793361496/sJzndjlzw4.jpeg
+tags: angular, i18n, pwa, localization
+
+---
 
 ## What is Internationalization (i18n)?
 
