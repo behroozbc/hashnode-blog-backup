@@ -1,4 +1,12 @@
-## .NET MAUI Display Toast Message
+---
+title: ".NET MAUI Display Toast Message"
+datePublished: Tue Jan 18 2022 11:54:28 GMT+0000 (Coordinated Universal Time)
+cuid: ckyk26jaa06bc7js1hya3fc6u
+slug: dot-net-maui-display-toast-message
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/Lks7vei-eAg/upload/v1642339245208/Qf6D2qYno.jpeg
+tags: xamarin, android, dotnet
+
+---
 
 While developing a mobile application, do you sometimes need to send feedback to the user after his actions? Even without disturbing the functioning of the application. It is possible to do this with Toast messages. However, you do not directly use Toast messages in .NET MAUI.
 
