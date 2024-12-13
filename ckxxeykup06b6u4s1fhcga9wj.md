@@ -1,4 +1,12 @@
-## فعال سازی Tpm در مادربرد های مبتنی بر ای ام دی
+---
+title: "فعال سازی Tpm در مادربرد های مبتنی بر ای ام دی"
+datePublished: Sun Jan 02 2022 15:33:14 GMT+0000 (Coordinated Universal Time)
+cuid: ckxxeykup06b6u4s1fhcga9wj
+slug: faaal-sazi-tpm-dr-madrbrd-hai-mbtni-br-ai-am-di
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1641137518569/3YYSi7LiT.jpeg
+tags: tutorial, hardware
+
+---
 
 ## TPM چیست؟
 
