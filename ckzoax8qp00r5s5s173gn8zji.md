@@ -1,4 +1,12 @@
-## Install Docker on a Raspberry Pi
+---
+title: "Install Docker on a Raspberry Pi"
+datePublished: Tue Feb 15 2022 15:49:58 GMT+0000 (Coordinated Universal Time)
+cuid: ckzoax8qp00r5s5s173gn8zji
+slug: install-docker-on-a-raspberry-pi
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/HjBOmBPbi9k/upload/v1644923338089/xf5iT0Pih.jpeg
+tags: docker, iot, raspberry-pi
+
+---
 
 Are you know it's possible to run Docker on a Raspberry Pi?? My first reaction was surprise since I thought Docker was only for servers. But that notion was incorrect.
 
