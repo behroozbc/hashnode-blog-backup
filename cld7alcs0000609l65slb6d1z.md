@@ -1,4 +1,12 @@
-# Introduce Windows Winget
+---
+title: "Introduce Windows Winget"
+datePublished: Sun Jan 22 2023 11:24:32 GMT+0000 (Coordinated Universal Time)
+cuid: cld7alcs0000609l65slb6d1z
+slug: introduce-windows-winget
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/vZJdYl5JVXY/upload/v1653080263018/yKUwoLC62.jpeg
+tags: windows, winget
+
+---
 
 As a Windows user, I envy Linux users because they have a package manager like APT to install their software from the command line without touching UI. On May 13, 2020, Microsoft introduced the 'Winget' that ends an ear. In this post, I will look at some features and powers of 'Winget'.
 
