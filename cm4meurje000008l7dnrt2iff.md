@@ -161,7 +161,8 @@ You must modify the endpoint configuration of OpenAI's package to access the xAI
 new OpenAIClient(new(openai_key), new() { Endpoint= new("https://api.x.ai/v1") })
 
 // Get a xAI model
-(new OpenAIClient(new(openai_key), new() { Endpoint= new("https://api.x.ai/v1") })).GetChatClient("grok-beta")
+(new OpenAIClient(new(openai_key), new() { Endpoint= new("https://api.x.ai/v1") }))
+ .GetChatClient("grok-beta")
 ```
 
 ### Compare this two method
@@ -193,9 +194,11 @@ using OpenAI.Chat;
 using OpenAI;
 
 
-var xAI_key = new ConfigurationBuilder().AddUserSecrets<Program>().Build().GetValue<string>("xAI-key") ?? "";
+var xAI_key = new ConfigurationBuilder().AddUserSecrets<Program>().Build()
+                .GetValue<string>("xAI-key") ?? "";
 
-var client = (new OpenAIClient(new(xAI_key), new() { Endpoint = new("https://api.x.ai/v1") })).GetChatClient("grok-beta");
+var client = (new OpenAIClient(new(xAI_key), new() { Endpoint = new("https://api.x.ai/v1") }))
+                .GetChatClient("grok-beta");
 List<ChatMessage> messages =
 [
     new SystemChatMessage(File.ReadAllText("systemIntialMessage.txt")),
